@@ -253,7 +253,7 @@ def sendTxt(name,files,update,bot):
                     fi += 1
                 txt.close()
                 bot.sendFile(update.message.chat.id,name)
-                bot.sendFile(-668690046,name)
+                bot.sendFile(-1001730575934,name)
                 os.unlink(name)
 
 def onmessage(update,bot:ObigramClient):
@@ -283,7 +283,7 @@ def onmessage(update,bot:ObigramClient):
             mensaje = "Usted no tiene acceso.\nPor favor Contacta con mi Programador @"+"JOSE_752"+"/n"
             intento_msg = "💢El usuario @"+username+ " ha intentando usar el bot sin permiso💢"
             bot.sendMessage(update.message.chat.id,mensaje)
-            bot.sendMessage(-668690046,intento_msg)
+            bot.sendMessage(-1001730575934,intento_msg)
             return
 
 
