@@ -481,7 +481,7 @@ def onmessage(update,bot:ObigramClient):
 
         if '/start' in msgText:
             start_msg = ' Bienvenido a Ultra_Fast \n'
-            start_msg+= ' JAGB2021 \n'
+            start_msg+= ' JOSE_752 \n'
             start_msg+= ' Antes de comenzar vea el /tuto \n'
             start_msg+= " Para ver las subidas disponibles pulse /config \n\n"
             bot.editMessageText(message,start_msg)
