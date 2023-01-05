@@ -6,8 +6,7 @@ user_agent
 ping3 
 nmap 
 tcping 
-pyping 
-youtube_dl 
+pyping  
 requests_toolbelt 
 telethon 
 tenacity
