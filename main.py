@@ -10,6 +10,7 @@ import mediafire
 import datetime
 import time
 import NexCloudClient
+from pydownloader.downloader import Downloader
 from ProxyCloud import ProxyCloud
 import ProxyCloud
 import socket
